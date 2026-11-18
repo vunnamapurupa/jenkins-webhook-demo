@@ -13,7 +13,7 @@ import org.springframework.test.context.junit4.SpringRunner;
 @SpringBootTest
 public class SpringJenkinsApplicationTests {
 
-	//public static Logger logger = LoggerFactory.getLogger(SpringJenkinsApplicationTests.class);
+	public static Logger logger = LoggerFactory.getLogger(SpringJenkinsApplicationTests.class);
 
 	@Test
 	public void contextLoads() {
@@ -22,5 +22,6 @@ public class SpringJenkinsApplicationTests {
 		assertEquals(true, true);
 
 	}
-
+// using yml
+	// webhooks in git git remote
 }
